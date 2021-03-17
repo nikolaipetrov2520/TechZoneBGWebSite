@@ -1,0 +1,30 @@
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: sistrix
+Disallow: /
+
+User-agent: LCC
+Disallow: /
+
+User-agent: heritrix
+Disallow: /
+
+User-agent: ltx71
+Disallow: /
+
+User-agent: seoscanners.net
+Disallow: /
+
+User-agent: BUbiNG
+Disallow: /
+
+User-agent: msnbot
+Crawl-delay: 10
+
+User-agent: bingbot
+Crawl-delay: 10
+
+User-agent: *
+Allow: /
+Disallow: /phpGallery
