@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+.mySlides {display: none; }
+img.slideImage {vertical-align: middle;}
+ 
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  width: 98%;
+  position: relative;
+  margin: auto;
+  background-color: #000;
+  border-radius: 6px;
+  box-shadow: 10px 0px 25px grey;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: rgb(255, 253, 253);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border:rgb(95, 95, 95) solid 1px;
+  
+}
+
+.active {
+  background-color: rgb(95, 95, 95);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.3s;
+  animation-name: fade;
+  animation-duration: 0.3s;
+  
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.2} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.2} 
+  to {opacity: 1}
+}
+.slide{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+img.slideImage{
+  border-radius: 6px;
+  border:rgba(96, 163, 235, 0.795) solid 1px;
+}
+div.slideText{
+  padding-top: 30px;
+}
+
